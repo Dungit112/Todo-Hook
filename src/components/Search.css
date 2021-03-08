@@ -1,0 +1,13 @@
+/* .SearchForm{
+    margin-top: 40px;
+} */
+label {
+  margin-right: 5px;
+}
+input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: 20px;
+}

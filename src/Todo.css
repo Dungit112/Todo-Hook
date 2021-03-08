@@ -2,7 +2,7 @@
   display: flex;
   margin: 0 -3rem 4px;
   padding: 1.1rem 3rem;
-  height: 77px;
+  height: 120px;
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
@@ -26,7 +26,7 @@
 .Todo.completed .Todo-task:before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: -0.5rem;
   display: block;
   width: 0%;

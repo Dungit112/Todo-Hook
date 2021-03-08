@@ -37,3 +37,6 @@
   font-family: "Quicksand", sans-serif;
   height: 3rem;
 }
+.error {
+  color: rgb(163, 231, 137);
+}
