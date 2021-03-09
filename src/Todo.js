@@ -59,7 +59,7 @@ const Todo = (props) => {
 
   const [isEditing, setIsEditing] = useState(false);
   // const [isfFinish, setIsFFinish] = useState(false);
-  const [tasks, setTasks] = useState(task);
+//   const [tasks, setTasks] = useState(task);
 
   //  const handleRemove= () => {
   //     this.props.removeTodo(this.props.id);
