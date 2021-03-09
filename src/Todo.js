@@ -46,7 +46,7 @@ const Todo = (props) => {
         .max(15, "task have max 15 characters"),
     }),
     onSubmit: (value) => {
-      setTasks(value.task);
+//       setTasks(value.task);
       setIsEditing(false);
 
       const dateTime = format(new Date(), "yyyy-MM-dd HH:mm:ss");
