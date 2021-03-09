@@ -22,7 +22,9 @@ const NewTodoForm = ({ createTodo }) => {
         .required("task is required")
         .min(2, "task must have min 2 characters")
         .max(15, "task have max 15 characters"),
-    }),
+        
+    }
+    ),
     onSubmit: (value) => {
       const _id = uuid();
       value.id = _id;

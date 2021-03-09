@@ -14,7 +14,7 @@ const Todo = (props) => {
     completed,
     id,
     createDate,
-    isFinish,
+   
   } = props;
   // constructor(props) {
   //   super(props);
@@ -34,8 +34,8 @@ const Todo = (props) => {
       // Init form field
       tasks: task,
       isEditing: false,
-      updateDate: "",
-      fFinish: isFinish,
+      updateDate: ""
+      // fFinish: isFinish,
     },
     validationSchema: Yup.object().shape({
       // Validate form field
@@ -58,7 +58,7 @@ const Todo = (props) => {
   });
 
   const [isEditing, setIsEditing] = useState(false);
-  const [isfFinish, setIsFFinish] = useState(false);
+  // const [isfFinish, setIsFFinish] = useState(false);
   const [tasks, setTasks] = useState(task);
 
   //  const handleRemove= () => {
@@ -81,9 +81,12 @@ const Todo = (props) => {
   //   setTasks(evt.target.value);
   //   }
   const handleToggle = (evt) => {
-    console.log(isfFinish);
     toggleTodo(id);
-    setIsFFinish(!isfFinish);
+    // setIsFFinish(!isfFinish);
+    // console.log(!isfFinish)
+    // handleIsFinish(!isfFinish)
+   
+    
   };
 
   let result;
